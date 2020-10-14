@@ -1,0 +1,27 @@
+.header {
+  height: 700px;
+  background-image: url("../images/header.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 2px;
+  color: #fff; }
+  .header__nav {
+    width: 100%; }
+
+@media screen and (max-width: 1020px) {
+  .header {
+    height: 568px; }
+    .header__nav {
+      height: 100%; } }
+
+/*# sourceMappingURL=header.css.map */
